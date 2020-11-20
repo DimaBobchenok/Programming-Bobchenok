@@ -1,5 +1,5 @@
+#define  UAH 1000 // 1000 гривен (сумма)
 int main ()  {
-    #define  UAH 1000 // 1000 гривен (сумма)
     const float eur=32; // 1 евро - 32 гривен 
     const float usd=28; // 1 доллар - 28 гривен
     const float rub=0.24; // 1 рубль  - 0.24 гривен 
