@@ -1,21 +1,19 @@
-targets = main.bin test.bin
+targets = konventor.bin 
 CC = gcc
-C_OPTS = -std=gnu11 -g -Wall -Wextra -Wformat-security -Wfloat-equal -Wshadow -Wconversion -Wlogical-not-parentheses -Wnull-dereference -I./src 
+C_OPTS = -std=gnu11 -g -Wall -Wextra -Wformat-security -Wfloat-equal -Wshadow -Wconversion -Wlogical-not-parentheses -Wnull-dereference -I./src
 
 all: clean prep compile run
 
-clean:
-	rm -rf dist
-prep:
-	mkdir dist
-compile: main.bin 
+clean: rm -rf dist
+prep: mkdir dist
+compile: konventor.bin
 
-main.bin: src/main.c
-	$(CC) $(C_OPTS) $< -o ./dist/$@
+konventor.bin : src/konventor.c
+    $(CC) $(C_OPTS) $< -o ./dist/$@
 run: clean prep compile
-	./dist/main.bin
+    ./dist/konventor.bin
 doxygen:
-	doxygen Doxyfile
+    doxygen Doxyfile
 format: #TODO
 
 tidy: # TODO
