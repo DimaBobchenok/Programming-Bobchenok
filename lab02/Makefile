@@ -8,6 +8,7 @@ clean:
 	rm -rf dist
 prep:
 	mkdir dist
+
 compile: main.bin test.bin
 
 main.bin: src/main.c
