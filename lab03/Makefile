@@ -10,8 +10,8 @@ clean:
 prep:
 	mkdir dist
 compile:
-	$(CC) $(C_OPTS) 1/src/main.c -o dist/main1.bin
-	$(CC) $(C_OPTS) 2/src/main.c -o dist/main2.bin
+	$(CC) $(C_OPTS) task01/src/main.c -o dist/main1.bin
+	$(CC) $(C_OPTS) task02/src/main.c -o dist/main2.bin
 
 run: clean prep compile
 	./dist/main.bin
