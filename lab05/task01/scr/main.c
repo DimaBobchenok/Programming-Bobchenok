@@ -3,8 +3,7 @@
 
 
 int main () { 
-	
-	int num1;
+int num1;
 	int num2;
 	int nod_for = 0;
 	int nod_while = 0;
