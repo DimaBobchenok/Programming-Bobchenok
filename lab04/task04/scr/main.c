@@ -1,4 +1,5 @@
 #define X 7 // значение х
+
 int main() {
 	int y = 0;
 	if (X <= -1) {
