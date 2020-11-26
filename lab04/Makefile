@@ -14,6 +14,7 @@ compile:
 	$(CC) $(C_OPTS) task02/src/main.c -o dist/main2.bin
 	$(CC) $(C_OPTS) task03/src/main.c -o dist/main3.bin
 	$(CC) $(C_OPTS) task04/src/main.c -o dist/main4.bin
+	$(CC) $(C_OPTS) task05/src/main.c -o dist/main5.bin
 run: clean prep compile
 	./dist/main.bin
 doxygen:
