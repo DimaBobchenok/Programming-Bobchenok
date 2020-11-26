@@ -1,4 +1,4 @@
-#define X 7 // значение х
+#define X 7 //  значение х
 
 int main() {
 	int y = 0;
