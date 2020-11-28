@@ -1,4 +1,4 @@
-#define NUM 28 // заданое число
+#define NUM 28 //  заданое число
 int main () {
 	int sum = 0;
 	int temp_for = 0;
