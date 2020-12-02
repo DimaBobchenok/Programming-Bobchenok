@@ -11,7 +11,7 @@ int main()
 	  }
 	  else if (X > 0 && X <= 1) {
 		         y = -1 * X + 1;
-  	}
+  	  }
 	  else if (X > 1) {
 		         y = X - 1;
 	  }
