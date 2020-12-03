@@ -3,7 +3,7 @@ int main() {
 	int len = 0;// длина массива
 	int count = 0;//кол-во слов
 
-	for (int i = 0; ; i++){	//нахождение длины 
+	for (int i = 0; ; i++){//нахождение длины 
 		if (strIn[i] == '\0'){
 			break;
 		} else {
